@@ -14,7 +14,7 @@ const createData = async () => {
 
       },
     });
-    console.log(show);
+    console.log(show, "the data created");
   } catch (error) {
     console.log("error is working here", error);
   }
